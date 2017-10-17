@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class OddOrEvenRunner {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		fileReader readingFile = new fileReader();
+		FileReader readingFile = new FileReader();
 		readingFile.readerFunction();
 
 	}
@@ -13,12 +13,12 @@ public class OddOrEvenRunner {
 	
 }
 
-class fileReader {
-	public fileReader() {
+class FileReader {
+	public FileReader() {
 	}
 	
 	public void readerFunction() throws FileNotFoundException {
-		Scanner file = new Scanner(new File("/home/student/Eclipse/OddorEven/src/lab01data.dat"));
+		Scanner file = new Scanner(new File("/home/student/git/centennialCompSci20172018/OddorEven/src/lab01data.dat"));
 		
 		int size = file.nextInt();
 		file.nextLine();
