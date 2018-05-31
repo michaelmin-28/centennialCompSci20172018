@@ -7,5 +7,6 @@ public class GitTest {
 		System.out.println("klappa");
 		System.out.println("The fourth commit.");
 		System.out.println("The fifth commit.");
+		System.out.println("Another commit.");
 	}
 }
